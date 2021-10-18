@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="heading">
+        <h1>Ariculator</h1>
+    </div>
+
+    <div class="calculator">
+        <div class="container">
+
+            <div class="screen-box">
+                <span id="result-on-screen"></span>
+            </div>
+            <div class="button-box">
+                <div class="button-row">
+                    <button type="submit" id="red">AC</button>
+                    <button type="submit" id="darkgreen">OFF</button>
+                </div>
+                <div class="button-row">
+                    <button type="submit">(</button>
+                    <button type="submit">)</button>
+                    <button type="submit">%</button>
+                    <button type="submit">/</button>
+                </div>
+                <div class="button-row">
+                    <button type="submit">7</button>
+                    <button type="submit">8</button>
+                    <button type="submit">9</button>
+                    <button type="submit">x</button>
+                </div>
+                <div class="button-row">
+                    <button type="submit">4</button>
+                    <button type="submit">5</button>
+                    <button type="submit">6</button>
+                    <button type="submit">-</button>
+                </div>
+                <div class="button-row">
+                    <button type="submit">1</button>
+                    <button type="submit">2</button>
+                    <button type="submit">3</button>
+                    <button type="submit">+</button>
+                </div>
+                <div class="button-row">
+                    <button type="submit"><i class="fas fa-backspace"></i></button>
+                    <button type="submit">0</button>
+                    <button type="submit">.</button>
+                    <button type="submit" id="lightgreen">=</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="history-box" id="hide-history">
+            <h3>History :</h3>
+            <span id="history-screen"> Yo Yo Nobita </span>
+        </div>
+
+    </div>
+
+
+    <footer>
+        &copy; Arindam Halder 2021
+    </footer>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

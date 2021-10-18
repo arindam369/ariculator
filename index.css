@@ -1,0 +1,162 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("./bg-6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    /* border: 1px solid white; */
+    height: 455px;
+    width: 300px;
+    padding: 13px 20px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid cyan;
+}
+.screen-box{
+    text-align: center;
+    border: 5px solid black;
+    height: 40px;
+    width: 290px;
+    background-color: rgb(37, 110, 37);
+    border-radius: 10px;
+}
+.button-box{
+    height: 400px;
+    width: 287px;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(44, 102, 209);
+    border-radius: 10px;
+
+}
+.button-row{
+    padding: 4px 5px;
+    margin: 4px 5px;
+}
+button{
+    font-size: 1.6rem;
+    border: 1.5px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 1px 5px;
+    border-radius: 50%;
+    background-color: rgb(49, 79, 177);
+    color: white;
+}
+button i{
+    font-size: 1.3rem;
+}
+button:hover{
+    background-color: rgb(26, 67, 202);
+    transform:scale(.8)
+}
+#result-on-screen{
+    color: white;
+    font-size: 1.5rem;
+    display: block;
+    text-align: right;
+    padding: 5px 20px;
+}
+footer{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+#red{
+    background-color: rgb(190, 55, 55);
+    font-size: 1.3rem;
+}
+#darkgreen{
+    font-size: 1rem;
+    background-color: rgb(4, 61, 4);
+}
+#lightgreen{
+    background-color: rgb(60, 128, 60);
+}
+.history-box{
+    text-align: center;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    /* width: 14rem; */
+    width: auto;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px 30px;
+    margin-top: 130px;
+    background-color: yellow;
+    height: 140px;
+    overflow-y: scroll;
+    transition: all 2s ease-in-out;
+    
+}
+.history-box::-webkit-scrollbar { width: 0 !important } /* to hide scrollbar in chrome */
+
+h3{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.calculator{
+    height: 550px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#history-screen{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+}
+@media (max-width:668px){
+    #history-screen{font-size: 1rem;}
+    h3{font-size: 1.2rem;}
+    .calculator{
+        height: 500px;
+
+    }
+    button{
+        height: 40px;
+        width: 40px;
+        font-size: 1.3rem;
+    }
+    .button-box{
+        height: 340px;
+        width: 245px;
+        padding: 5px 5px;
+    }
+    button i{
+        font-size:1rem;
+    }
+    .container{
+        height: 410px;
+        width: 265px;
+        text-align: center;
+    }
+    .screen-box{
+        height: 35px;
+        width: 255px;
+    }
+    .history-box{
+        display: none !important;
+    }
+    #result-on-screen{
+        font-size: 1.3rem;
+    }
+    #red{
+        font-size: 1rem;
+    }
+    #darkgreen{
+        font-size: .8rem;
+    }
+}
