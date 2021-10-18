@@ -98,7 +98,7 @@ for(var i=0; i<buttons.length ;i++){
         }
 
         
-        if(res.length>21){
+        if(res.length>20){
             res="";
             result.innerText = "OUT OF SCOPE";
         }
